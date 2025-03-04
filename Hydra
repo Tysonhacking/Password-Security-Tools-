@@ -1,0 +1,7 @@
+# تحديث الحزم وتثبيت Hydra
+pkg update -y && pkg upgrade -y
+pkg install hydra -y
+
+# تشغيل Hydra مع بصمة تايسون
+echo "\e[1;31mTyson - Hydra Attack\e[0m"
+hydra -h
